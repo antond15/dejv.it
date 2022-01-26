@@ -31,3 +31,5 @@ jobs:
           DISCORD_USERNAME: GitHub
           DISCORD_AVATAR: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
           DISCORD_EMBED: '[{"description":"Project **antond15/dejv.it** has been successfully deployed via FTP.","color":4437377}]'
+        with:
+          args: Project **{{ EVENT_PAYLOAD.repository.full_name }}** has been successfully deployed via FTP.
