@@ -30,4 +30,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: GitHub
           DISCORD_AVATAR: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-          DISCORD_EMBED: [{"description":"Project **antond15/dejv.it** has been successfully deployed via FTP.","color":4437377}]
+          DISCORD_EMBED: '[{"description":"Project **antond15/dejv.it** has been successfully deployed via FTP.","color":4437377}]'
