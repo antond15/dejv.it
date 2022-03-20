@@ -7,12 +7,14 @@ import './NavBar.scss';
 const NavBar: React.FC = () => {
   return (
     <nav className="nav-container">
-      <img
-        className="nav-logo"
-        src={process.env.PUBLIC_URL + 'assets/letter.svg'}
-        alt="logo"
-        draggable="false"
-      />
+      <a href={process.env.PUBLIC_URL}>
+        <img
+          className="nav-logo"
+          src={process.env.PUBLIC_URL + 'assets/logo.svg'}
+          alt="logo"
+          draggable="false"
+        />
+      </a>
 
       <div className="nav-content">
         <div className="nav-left">
