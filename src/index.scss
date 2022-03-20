@@ -2,41 +2,41 @@
 @import 'variables';
 
 * {
-  user-select: none;
+	user-select: none;
 }
 
 body {
-  background-color: $color-gray1;
-  margin: 0;
-  line-height: 1;
-  color: $color-white;
-  font-family: 'Rubik', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: $color-gray1;
+	margin: 0;
+	line-height: 1;
+	color: $color-white;
+	font-family: 'Rubik', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .Wrapper {
-  position: absolute;
-  display: flex;
+	position: absolute;
+	display: flex;
 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .Wip {
-  z-index: -1;
+	z-index: -1;
 
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: $color-white;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: $color-white;
 }
