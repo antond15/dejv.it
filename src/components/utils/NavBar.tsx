@@ -26,11 +26,11 @@ const NavBar: React.FC = () => {
           <a href="https://github.com/antond15" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} fixedWidth />
           </a>
-          <a href="https://discordapp.com/users/289015294456758272" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faDiscord} fixedWidth />
-          </a>
           <a href="https://ko-fi.com/antond" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faMugHot} fixedWidth />
+          </a>
+          <a href="https://discordapp.com/users/289015294456758272" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faDiscord} fixedWidth />
           </a>
           <a href="https://twitch.tv/antond1" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitch} fixedWidth />
