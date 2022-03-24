@@ -1,11 +1,13 @@
 import React from 'react';
 import NavBar from './utils/NavBar';
+import Main from './utils/Main';
 
 const App: React.FC = () => {
   return (
     <>
       <div className="Wrapper">
         <NavBar />
+        <Main />
 
         <div className="Wip">
           <span>
