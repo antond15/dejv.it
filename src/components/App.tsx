@@ -12,7 +12,7 @@ const App: React.FC = () => {
         <div className="Wip">
           <span>
             <p>WORK IN PROGRESS</p>
-            <br/>
+            <br />
             <p>All links are in navbar.</p>
           </span>
         </div>
