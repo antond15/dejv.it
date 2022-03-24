@@ -17,8 +17,6 @@ body {
 
 .Wrapper {
 	position: absolute;
-	display: flex;
-
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -26,17 +24,30 @@ body {
 }
 
 .Wip {
-	z-index: -1;
+	z-index: 1;
+	backdrop-filter: blur(6px);
 
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 60px);
 
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
-	font-size: 20px;
 	color: $color-white;
+	text-align: center;
+
+	span {
+		width: 250px;
+		padding: 20px;
+		border-radius: 5px;
+		background-color: #B92022;
+
+		p {
+			margin: 0;
+		}
+	}
+
 }

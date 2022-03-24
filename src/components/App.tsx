@@ -6,9 +6,14 @@ const App: React.FC = () => {
     <>
       <div className="Wrapper">
         <NavBar />
-      </div>
-      <div className="Wip">
-        <h1>Work in progress</h1>
+
+        <div className="Wip">
+          <span>
+            <p>WORK IN PROGRESS</p>
+            <br/>
+            <p>All links are in navbar.</p>
+          </span>
+        </div>
       </div>
     </>
   );
