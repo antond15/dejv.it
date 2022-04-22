@@ -1,5 +1,5 @@
 import React from 'react';
-import Projects from './Projects';
+import Projects from '../Projects/Projects';
 import './Main.scss';
 
 const Main: React.FC = () => {

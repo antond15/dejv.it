@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './utils/NavBar';
-import Main from './utils/Main';
+import NavBar from './NavBar/NavBar';
+import Main from './Main/Main';
 
 const App: React.FC = () => {
   return (
