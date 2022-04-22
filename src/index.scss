@@ -3,6 +3,8 @@
 
 * {
 	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 body {
@@ -26,6 +28,12 @@ body {
 .Wip {
 	z-index: 1;
 	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+
+	// Firefox fix for backdrop filter
+	@-moz-document url-prefix() {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
 
 	position: absolute;
 	display: flex;

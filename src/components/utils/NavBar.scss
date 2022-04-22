@@ -21,6 +21,11 @@
 		width: 100%;
 		border-left: solid $color-gray1 5px;
 
+		// Firefox fix for margin
+		@-moz-document url-prefix() {
+			margin-left: 60px;
+		}
+
 		.nav-left {
 			h2 {
 				font-size: 30px;
