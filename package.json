@@ -28,7 +28,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:prod": "GENERATE_SOURCEMAP=false react-scripts build",
     "format": "prettier --write \"./src/**/*.{ts,tsx,css,scss}\"",
     "test": "react-scripts test"
   },
