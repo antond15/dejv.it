@@ -3,12 +3,14 @@ import { render } from 'react-dom';
 
 import './index.scss';
 import App from './components/App';
-import { ThemeProvider } from '@mui/material';
-import { customTheme } from './theme';
+import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider } from '@mui/material/styles';
+import customTheme from './theme';
 
 render(
   <React.StrictMode>
     <ThemeProvider theme={customTheme}>
+      <CssBaseline />
       <App />
     </ThemeProvider>
   </React.StrictMode>,
