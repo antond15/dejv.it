@@ -1,11 +1,21 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const Copyright: React.FC = () => {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {`© ${new Date().getFullYear()} All rights reserved.`}
-    </Typography>
+    <Box
+      sx={{
+        position: 'absolute',
+        alignSelf: 'flex-end',
+        width: '100%',
+        padding: 2,
+        // bgcolor: 'red'
+      }}
+    >
+      <Typography variant="body2" color="text.secondary" align="center">
+        {`© ${new Date().getFullYear()} All rights reserved.`}
+      </Typography>
+    </Box>
   );
 };
 
