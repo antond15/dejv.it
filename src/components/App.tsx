@@ -1,23 +1,27 @@
+import { Alert, Container } from '@mui/material';
 import React from 'react';
-import NavBar from './NavBar/NavBar';
-import Main from './Main/Main';
+import ButtonLinks from './content/ButtonLinks';
+import Copyright from './content/Copyright';
 
 const App: React.FC = () => {
   return (
-    <>
-      <div className="Wrapper">
-        <NavBar />
-        <Main />
-
-        <div className="Wip">
-          <span>
-            <p>WORK IN PROGRESS</p>
-            <br />
-            <p>All links are in navbar.</p>
-          </span>
-        </div>
+    <Container
+      maxWidth={false}
+      disableGutters
+      sx={{
+        position: 'absolute',
+        display: 'flex',
+        height: '100%',
+        justifyContent: 'center',
+      }}
+    >
+      <div style={{ marginTop: 16 }}>
+        <Alert severity="warning">This site is work in progress</Alert>
       </div>
-    </>
+
+      <ButtonLinks />
+      <Copyright />
+    </Container>
   );
 };
 
