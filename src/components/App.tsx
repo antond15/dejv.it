@@ -1,4 +1,4 @@
-import { Container } from '@mui/material';
+import { Alert, Container } from '@mui/material';
 import React from 'react';
 import ButtonLinks from './content/ButtonLinks';
 import Copyright from './content/Copyright';
@@ -15,6 +15,10 @@ const App: React.FC = () => {
         justifyContent: 'center',
       }}
     >
+      <div style={{ marginTop: 16 }}>
+        <Alert severity="warning">This site is work in progress</Alert>
+      </div>
+
       <ButtonLinks />
       <Copyright />
     </Container>
