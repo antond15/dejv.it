@@ -9,7 +9,6 @@ const Copyright: React.FC = () => {
         alignSelf: 'flex-end',
         width: '100%',
         padding: 2,
-        // bgcolor: 'red'
       }}
     >
       <Typography variant="body2" color="text.secondary" align="center">

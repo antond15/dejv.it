@@ -1,6 +1,7 @@
 import { Container } from '@mui/material';
 import React from 'react';
-import Copyright from './Copyright/Copyright';
+import ButtonLinks from './content/ButtonLinks';
+import Copyright from './content/Copyright';
 
 const App: React.FC = () => {
   return (
@@ -11,10 +12,10 @@ const App: React.FC = () => {
         position: 'absolute',
         display: 'flex',
         height: '100%',
-        // bgcolor: 'brown',
+        justifyContent: 'center',
       }}
     >
-      <p>cscs</p>
+      <ButtonLinks />
       <Copyright />
     </Container>
   );

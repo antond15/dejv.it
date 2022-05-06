@@ -8,7 +8,7 @@ const customTheme = createTheme({
       secondary: '#cccccc',
     },
     background: {
-      default: '#060808',
+      default: '#0f2027',
     },
   },
 });
