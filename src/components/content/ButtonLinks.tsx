@@ -10,15 +10,15 @@ const Copyright: React.FC = () => {
       sx={{
         position: 'absolute',
         alignSelf: 'center',
-        width: '50%',
+        width: 'auto',
         padding: 2,
         textAlign: 'center',
       }}
     >
-      <ButtonLink title="GitHub" icon={faGithub} size="large" link="https://github.com/antond15" />
-      <ButtonLink title="Ko-Fi" icon={faMugHot} size="large" link="https://ko-fi.com/antond" />
-      <ButtonLink title="Discord" icon={faDiscord} size="large" link="https://discord.gg/2ZezMw2xvR" />
-      <ButtonLink title="Twitch" icon={faTwitch} size="large" link="https://twitch.tv/antond1" />
+      <ButtonLink title="GitHub" icon={faGithub} link="https://github.com/antond15" />
+      <ButtonLink title="Ko-Fi" icon={faMugHot} link="https://ko-fi.com/antond" />
+      <ButtonLink title="Discord" icon={faDiscord} link="https://discord.gg/2ZezMw2xvR" />
+      <ButtonLink title="Twitch" icon={faTwitch} link="https://twitch.tv/antond1" />
     </Box>
   );
 };
