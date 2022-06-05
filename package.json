@@ -1,6 +1,7 @@
 {
   "name": "dejvit",
   "version": "1.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
